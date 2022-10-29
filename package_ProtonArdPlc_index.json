@@ -1,8 +1,8 @@
 {
     "packages": [
         {
-            "name": "PROTON ARDUINO PLC",
-            "maintainer": "PROTON ELECTRONICS",
+            "name": "Proton Arduino PLC",
+            "maintainer": "Proton Electronics",
             "websiteURL": "https://proton.xyz/",
             "email": "hbendali@ya.ru",
             "help": {
