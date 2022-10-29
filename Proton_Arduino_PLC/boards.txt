@@ -2,17 +2,16 @@
 
 ##############################################################
 
-## Arduino ard_plc_a5 w/ ATmega328P
-## --------------------------
+## Proton Arduino PLC A5 / Arduino Nano ATmega328P
+## -----------------------------------------------
 
 ard_plc_a5.name=Proton Arduino PLC A5
-
 ard_plc_a5.build.mcu=atmega328p
 ard_plc_a5.build.f_cpu=16000000L
 ard_plc_a5.build.board=AVR_UNO
 ard_plc_a5.build.core=arduino:arduino
 ard_plc_a5.build.variant=proton_ard_plc_a5
-
+ard_plc_a5.build.variant_system_lib=
 ard_plc_a5.bootloader.tool=avrdude
 ard_plc_a5.bootloader.low_fuses=0xFF
 ard_plc_a5.bootloader.high_fuses=0xDA
@@ -20,7 +19,6 @@ ard_plc_a5.bootloader.extended_fuses=0xFD
 ard_plc_a5.bootloader.unlock_bits=0x3F
 ard_plc_a5.bootloader.lock_bits=0x0F
 ard_plc_a5.bootloader.file=optiboot/optiboot_atmega328.hex
-
 ard_plc_a5.upload.tool=avrdude
 ard_plc_a5.upload.protocol=arduino
 ard_plc_a5.upload.maximum_size=30720

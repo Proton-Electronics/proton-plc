@@ -14,10 +14,11 @@
                     "architecture": "avr",
                     "version": "1.0.0",
                     "category": "Contributed",
-                    "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/test/Proton_Arduino_PLC.zip",
                     "help": {
                         "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
                     },
+                    "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/test/Proton_Arduino_PLC.zip",
+                    "archiveFileName": "Proton_Arduino_PLC.zip",
                     "boards": [
                         {"name": "Proton Arduino PLC A5"}
                     ],
