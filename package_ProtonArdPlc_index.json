@@ -16,7 +16,7 @@
                     "category": "Contributed",
                     "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/1.0.0/PROTON_Arduino_PLC.zip",
                     "help": {
-                        "online": "https://github.com/Proton-Electronics/proton-plc/issues"
+                        "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
                     },
                     "boards": [
                         {"name": "PROTON ARDUINO PLC"}
