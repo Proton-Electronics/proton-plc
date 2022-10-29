@@ -1,0 +1,28 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+##############################################################
+
+ard_plc.name=PROTON Ard PLC
+
+ard_plc.build.mcu=atmega328p
+ard_plc.build.f_cpu=16000000L
+ard_plc.build.board=AVR_UNO
+ard_plc.build.core=arduino:arduino
+ard_plc.build.variant=ard_plc
+
+ard_plc.bootloader.tool=avrdude
+ard_plc.bootloader.low_fuses=0xFF
+ard_plc.bootloader.high_fuses=0xDE
+ard_plc.bootloader.extended_fuses=0xFD
+#ard_plc.bootloader.extended_fuses=0x05
+ard_plc.bootloader.unlock_bits=0x3F
+ard_plc.bootloader.lock_bits=0x0F
+ard_plc.bootloader.file=optiboot/Bootloader_CONTROLLINO_MINI.hex
+
+ard_plc.upload.tool=avrdude
+ard_plc.upload.protocol=arduino
+ard_plc.upload.maximum_size=32256
+ard_plc.upload.maximum_data_size=2048
+ard_plc.upload.speed=115200
+
+##############################################################

@@ -1,0 +1,33 @@
+{
+    "packages": [
+        {
+            "name": "PROTON ARDUINO PLC",
+            "maintainer": "PROTON ELECTRONICS",
+            "websiteURL": "https://proton.xyz/",
+            "email": "hbendali@ya.ru",
+            "help": {
+                "online": "https://github.com/Proton-Electronics/proton-plc/issues"
+            },
+            "platforms": [
+                {
+                    "name": "PROTON ARDUINO PLC",
+                    "architecture": "avr",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/1.0.0/PROTON_Arduino_PLC.zip",
+                    "help": {
+                        "online": "https://github.com/Proton-Electronics/proton-plc/issues"
+                    },
+                    "boards": [
+                        {"name": "PROTON ARDUINO PLC"}
+                    ],
+                    "toolsDependencies": [
+                        {"packager": "arduino","name": "avr-gcc","version": "4.8.1-arduino5"},
+                        {"packager": "arduino","name": "avrdude","version": "6.0.1-arduino5"}
+                    ]
+                }
+            ],
+            "tools":[]
+        }
+    ]
+}
