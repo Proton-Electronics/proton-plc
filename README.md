@@ -45,7 +45,7 @@
 ### Arduino A5 PLC hardware definition
 
 * Navigate to File–>Preferences
-* Copy-paste the following link to the Additional Boards Manager URLs: https://raw.githubusercontent.com/Proton-Electronics/proton-plc/main/package_ProtonArdPlc_index.json
+* Copy-paste the following link to the Additional Boards Manager URLs: `https://raw.githubusercontent.com/Proton-Electronics/proton-plc/main/package_ProtonArdPlc_index.json`
 * Press OK button
 * Then navigate to `Tools`–>`Board: 'xxxxxx'`–>`Boards Manager`
 * In the Boards Manager type `Proton` into the filter text box and search for `Proton Arduino PLC boards`

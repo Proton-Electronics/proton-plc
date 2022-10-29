@@ -10,7 +10,7 @@
             },
             "platforms": [
                 {
-                    "name": "PROTON ARDUINO PLC",
+                    "name": "Proton Arduino PLC",
                     "architecture": "avr",
                     "version": "1.0.0",
                     "category": "Contributed",
@@ -19,7 +19,7 @@
                         "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
                     },
                     "boards": [
-                        {"name": "Proton Arduino PLC"}
+                        {"name": "Proton Arduino PLC A5"}
                     ],
                     "toolsDependencies": [
                         {"packager": "arduino","name": "avr-gcc","version": "4.8.1-arduino5"},
