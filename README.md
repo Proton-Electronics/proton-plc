@@ -1,6 +1,8 @@
-# PROTON Arduino PLC
+# Proton Arduino PLC
 
-## Proton Plc A5 Board Tech Specs
+## Proton Plc A5 
+
+### Tech Specs
 
 **ATmega328** Microcontroller  
 - High-performance low-power 8-bit processor
@@ -45,7 +47,7 @@
 * Navigate to File–>Preferences
 * Copy-paste the following link to the Additional Boards Manager URLs: https://raw.githubusercontent.com/Proton-Electronics/proton-plc/main/package_ProtonArdPlc_index.json
 * Press OK button
-* Then navigate to `Tools`–>`Board`–>`Boards Manager`
+* Then navigate to `Tools`–>`Board: 'xxxxxx'`–>`Boards Manager`
 * In the Boards Manager type `Proton` into the filter text box and search for `Proton Arduino PLC boards`
 * When found, select the latest version and install it. The installation process should be fully automated
-* When finished - check in `Tools`–>`Board`–> menu that you can see the `Proton Ard PLC A5 w/ ATmega328` boards there
+* When finished - check in `Tools`–>`Board: 'xxxxxx'`–> menu that you can see the `Proton Ard PLC A5 w/ ATmega328` boards there
