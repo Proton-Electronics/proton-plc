@@ -22,7 +22,7 @@
 ### Arduino A5 PLC hardware definition
 
 * Navigate to File–>Preferences
-* Copy-paste the following link to the Additional Boards Manager URLs: https://github.com/Proton-Electronics/proton-plc/raw/master/package_ProtonArdPlc_index.json
+* Copy-paste the following link to the Additional Boards Manager URLs: https://raw.githubusercontent.com/Proton-Electronics/proton-plc/main/package_ProtonArdPlc_index.json
 * Press OK button
 * Then navigate to Tools–>Board: “Foo“–>Boards Manager
 * In the Boards Manager type SPECTRA into the filter text box and search for SPECTRA ARDUINO PLC boards
