@@ -2,27 +2,19 @@
 
 ##############################################################
 
-ard_plc.name=PROTON Ard PLC
+## Arduino ard_plc_a5 w/ ATmega328P
+## --------------------------
 
-ard_plc.build.mcu=atmega328p
-ard_plc.build.f_cpu=16000000L
-ard_plc.build.board=AVR_UNO
-ard_plc.build.core=arduino:arduino
-ard_plc.build.variant=ard_plc
+ard_plc_a5.menu.cpu.atmega328=ATmega328P
 
-ard_plc.bootloader.tool=avrdude
-ard_plc.bootloader.low_fuses=0xFF
-ard_plc.bootloader.high_fuses=0xDE
-ard_plc.bootloader.extended_fuses=0xFD
-#ard_plc.bootloader.extended_fuses=0x05
-ard_plc.bootloader.unlock_bits=0x3F
-ard_plc.bootloader.lock_bits=0x0F
-ard_plc.bootloader.file=optiboot/Bootloader_CONTROLLINO_MINI.hex
+ard_plc_a5.menu.cpu.atmega328.upload.maximum_size=30720
+ard_plc_a5.menu.cpu.atmega328.upload.maximum_data_size=2048
+ard_plc_a5.menu.cpu.atmega328.upload.speed=115200
 
-ard_plc.upload.tool=avrdude
-ard_plc.upload.protocol=arduino
-ard_plc.upload.maximum_size=32256
-ard_plc.upload.maximum_data_size=2048
-ard_plc.upload.speed=115200
+ard_plc_a5.menu.cpu.atmega328.bootloader.low_fuses=0xFF
+ard_plc_a5.menu.cpu.atmega328.bootloader.high_fuses=0xDA
+ard_plc_a5.menu.cpu.atmega328.bootloader.extended_fuses=0xFD
+ard_plc_a5.menu.cpu.atmega328.bootloader.file=optiboot/optiboot_atmega328.hex
 
+ard_plc_a5.menu.cpu.atmega328.build.mcu=atmega328p
 ##############################################################
