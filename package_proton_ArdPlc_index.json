@@ -12,7 +12,7 @@
                 {
                     "name": "Proton Arduino PLC",
                     "architecture": "avr",
-                    "version": "0.0.3",
+                    "version": "0.0.3-alpha",
                     "category": "Contributed",
                     "help": {
                         "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
