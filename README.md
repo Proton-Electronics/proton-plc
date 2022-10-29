@@ -1,16 +1,41 @@
 # PROTON Arduino PLC
 
-## A5
+## A5 Tech Specs
 
-* Microcontroller: ATmega328
-* Atmel Clock Speed: 16 MHz
-* RTC
-* 1x serial Interface
-* 1x I2C Interface
-* Input current Max. 8A
-* 4x Relays Outputs – 230V / 6A
-* 2x Analog/Digital Inputs
-* 6x Digital Inputs
+**Proton Plc A5** Board name
+
+**ATmega328** Microcontroller  
+- High-performance low-power 8-bit processor
+- Achieve up to 16 MIPS for 16 MHz clock frequency
+- 32 kB of which 2 KB used by bootloader
+- 2 kB internal SRAM
+- 1 kB EEPROM
+- 32 x 8 General Purpose Working Registers
+- Real Time Counter with Separate Oscillator
+- Six PWM Channels
+- Programmable Serial USART
+- Master/Slave SPI Serial Interface
+
+**Power**  
+- USB C connection
+- 12-24V unregulated external power supply
+
+**Sleep Modes**  
+- Idle
+- ADC Noise Reduction
+- Power-save
+- Power-down
+- Standby
+- Extended Standby
+
+**I/O**  
+- 6 Digital Input
+- 2 Analog Input
+- 2 Analog Output Max. 20mA
+
+- 6 PWM Output
+- 4 Relays Output - 230V / 6A
+- 1 I2C 
 
 ## Installation guide
 
