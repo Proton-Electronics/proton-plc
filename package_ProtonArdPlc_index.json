@@ -14,7 +14,7 @@
                     "architecture": "avr",
                     "version": "1.0.0",
                     "category": "Contributed",
-                    "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/1.0.0/PROTON_Arduino_PLC.zip",
+                    "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/test/PROTON_Arduino_PLC.zip",
                     "help": {
                         "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
                     },
