@@ -19,6 +19,7 @@
 **Power**  
 - USB C connection
 - 12V-24V unregulated external power supply (Max 32V)
+- Overvoltage and overcurrent protection
 
 **Sleep Modes**  
 - Idle
