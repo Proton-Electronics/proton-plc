@@ -31,7 +31,7 @@
 
 **I/O**  
 - 6 Digital Input 12V-24V
-- 4 Analog Input 0V-10V
+- 4 Analog Input 0V-10V (overvoltage protected)
 - 2 Analog Output
 - 5 Relays Output - 230V / 5A
 - 1 I2C 
