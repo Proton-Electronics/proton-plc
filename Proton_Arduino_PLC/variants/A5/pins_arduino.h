@@ -22,7 +22,6 @@
 #define _PINS_ARDUINO_PLC_A5_
 
 #include <avr/pgmspace.h>
-#include "Wire.h"
 
 #define _ON		HIGH
 #define _OFF	LOW
