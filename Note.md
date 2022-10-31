@@ -1,4 +1,6 @@
-//#include "Arduino.h”
+# Note
+
+```c
 #include "Wire.h"
 #include "variant.h"
 
@@ -27,3 +29,4 @@ Proton_Arduino_PLC::Proton_Arduino_PLC() {
     Serial.begin(115200);
     Wire.begin();
 }
+```
