@@ -22,7 +22,7 @@
 #define _PINS_ARDUINO_PLC_A5_
 
 #include <avr/pgmspace.h>
-//#include <variant.h>
+#include "Wire.h"
 
 #define _ON		HIGH
 #define _OFF	LOW
@@ -172,5 +172,34 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 
 #define SERIAL_PORT_MONITOR   Serial
 #define SERIAL_PORT_HARDWARE  Serial
+class Proton_Arduino_PLC {
+public:
+  Proton_Arduino_PLC() {
+    pinMode(D1, INPUT);
+    pinMode(D2, INPUT);
+    pinMode(D3, INPUT);
+    pinMode(D4, INPUT);
+    pinMode(D5, INPUT);
+    pinMode(D6, INPUT);
+
+    pinMode(A1, INPUT);
+    pinMode(A2, INPUT);
+    pinMode(A3, INPUT);
+    pinMode(A4, INPUT);
+
+    pinMode(AO1, OUTPUT);
+    pinMode(AO2, OUTPUT);
+
+    pinMode(REL1, OUTPUT);
+    pinMode(REL2, OUTPUT);
+    pinMode(REL3, OUTPUT);
+    pinMode(REL4, OUTPUT);
+    pinMode(REL5, OUTPUT);
+
+    Serial.begin(115200);
+    Wire.begin();
+  }
+private:
+};
 
 #endif
