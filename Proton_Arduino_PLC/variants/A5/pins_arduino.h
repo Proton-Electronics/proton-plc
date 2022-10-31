@@ -22,7 +22,7 @@
 #define _PINS_ARDUINO_PLC_A5_
 
 #include <avr/pgmspace.h>
-#include <variant.h>
+//#include <variant.h>
 
 #define _ON		HIGH
 #define _OFF	LOW
