@@ -24,6 +24,9 @@
 #include <avr/pgmspace.h>
 #include <variant.h>
 
+#define _ON		HIGH
+#define _OFF	LOW
+
 #define PIN_WIRE_SDA 18		    	/* A4 PC4 18 */
 #define PIN_WIRE_SCL 19   		  /* A5 PC5 19 */
 

@@ -36,19 +36,8 @@
 - 5 Relays Output - 230V / 5A
 - 1 I2C 
 
-## Installation guide
+### Software Compatible
 
-### General requirements
-
-* PC with Arduino IDE (1.6.4 or newer) (Windows, Linux, MAC)
-* Internet connection
-
-### Arduino A5 PLC hardware definition
-
-* Navigate to File–>Preferences
-* Copy-paste the following link to the Additional Boards Manager URLs: `https://raw.githubusercontent.com/Proton-Electronics/proton-plc/main/package_proton_ArdPlc_index.json`
-* Press OK button
-* Then navigate to `Tools`–>`Board: 'xxxxxx'`–>`Boards Manager`
-* In the Boards Manager type `Proton` into the filter text box and search for `Proton Arduino PLC boards`
-* When found, select the latest version and install it. The installation process should be fully automated
-* When finished - check in `Tools`–>`Board: 'xxxxxx'`–> menu that you can see the `Proton Ard PLC A5 w/ ATmega328` boards there
+* [Arduino IDE (1.8.x or newer)](Using-with-Arduino-IDE.md)
+* [VSCode with PlatformIO](Using-with-Vscode-and-Platformio.md)
+* [OpenPLC Editor](Using-with-OpenPLC.md)
