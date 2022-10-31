@@ -8,9 +8,9 @@
 ard_plc_a5.name=Proton Arduino PLC A5
 ard_plc_a5.build.mcu=atmega328p
 ard_plc_a5.build.f_cpu=16000000L
-ard_plc_a5.build.core=arduino:arduino
+ard_plc_a5.build.core=arduino
 ard_plc_a5.build.variant=A5
-ard_plc_a5.build.board=AVR_ARD_PLC_A5
+ard_plc_a5.build.board=ard_plc_a5
 ard_plc_a5.bootloader.tool=avrdude
 ard_plc_a5.bootloader.low_fuses=0xFF
 ard_plc_a5.bootloader.high_fuses=0xDA
