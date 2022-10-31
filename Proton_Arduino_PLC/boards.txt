@@ -2,7 +2,7 @@
 
 ##############################################################
 
-## Proton Arduino PLC A5 / Arduino Nano ATmega328P
+## Proton Arduino PLC A5
 ## -----------------------------------------------
 
 ard_plc_a5.name=Proton Arduino PLC A5
