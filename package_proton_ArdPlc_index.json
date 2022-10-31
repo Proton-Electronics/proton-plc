@@ -10,9 +10,9 @@
             },
             "platforms": [
                 {
-                    "name": "Arduino AVR Boards",
+                    "name": "Proton Arduino PLC",
                     "architecture": "avr",
-                    "version": "0.0.10-alpha",
+                    "version": "0.0.12-alpha",
                     "category": "Contributed",
                     "help": {
                         "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
