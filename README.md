@@ -38,6 +38,6 @@
 
 ### Software Compatible
 
-* [Arduino IDE (1.8.x or newer)](Using-with-Arduino-IDE.md)
-* [VSCode with PlatformIO](Using-with-Vscode-and-Platformio.md)
-* [OpenPLC Editor](Using-with-OpenPLC.md)
+* [Arduino IDE (1.8.x or newer)](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-Arduino-IDE)
+* [VSCode with PlatformIO](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-Vscode-and-Platformio)
+* [OpenPLC Editor](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-OpenPLC)
