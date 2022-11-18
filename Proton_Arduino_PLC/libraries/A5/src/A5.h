@@ -20,13 +20,14 @@ public:
 	int a3(void);
 	int a4(void);
 
-	int read(int D1_D6_A1_A4);
-
 	void rel1(int ON_OFF);
 	void rel2(int ON_OFF);
 	void rel3(int ON_OFF);
 	void rel4(int ON_OFF);
 	void rel5(int ON_OFF);
+
+	int read(int D1_D6_A1_A4);
+	void write(int AO1_AO2, int Value);
 
 	void on(int REL1_REL5);
 	void off(int REL1_REL5);
