@@ -1,33 +1,39 @@
 {
-    "packages": [
+  "packages": [
+    {
+      "name": "Proton Arduino PLC",
+      "maintainer": "Proton Electronics",
+      "websiteURL": "https://proton.xyz/",
+      "email": "hbendali@ya.ru",
+      "help": {
+        "online": "https://github.com/Proton-Electronics/proton-plc/issues"
+      },
+      "platforms": [
         {
-            "name": "Proton Arduino PLC",
-            "maintainer": "Proton Electronics",
-            "websiteURL": "https://proton.xyz/",
-            "email": "hbendali@ya.ru",
-            "help": {
-                "online": "https://github.com/Proton-Electronics/proton-plc/issues"
+          "name": "Proton Arduino PLC",
+          "architecture": "avr",
+          "version": "0.0.18-alpha",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
+          },
+          "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/v0.0.3-alpha/Proton_Arduino_PLC.zip",
+          "archiveFileName": "Proton_Arduino_PLC.zip",
+          "boards": [{ "name": "Proton Arduino PLC A5" }],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
             },
-            "platforms": [
-                {
-                    "name": "Proton Arduino PLC",
-                    "architecture": "avr",
-                    "version": "0.0.17-alpha",
-                    "category": "Contributed",
-                    "help": {
-                        "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
-                    },
-                    "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/v0.0.3-alpha/Proton_Arduino_PLC.zip",
-                    "archiveFileName": "Proton_Arduino_PLC.zip",
-                    "boards": [
-                        {"name": "Proton Arduino PLC A5"}
-                    ],
-                    "toolsDependencies": [
-                        { "packager": "arduino", "name": "avr-gcc", "version": "7.3.0-atmel3.6.1-arduino7" },
-                        { "packager": "arduino", "name": "avrdude", "version": "6.3.0-arduino17" }
-                    ]
-                }
-            ]
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
