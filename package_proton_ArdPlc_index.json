@@ -3,7 +3,7 @@
     {
       "name": "Proton Arduino PLC",
       "maintainer": "Proton Electronics",
-      "websiteURL": "https://proton.xyz/",
+      "websiteURL": "https://github.com/Proton-Electronics/proton-plc",
       "email": "hbendali@ya.ru",
       "help": {
         "online": "https://github.com/Proton-Electronics/proton-plc/issues"
