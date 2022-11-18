@@ -124,7 +124,7 @@ int Proton_Arduino_PLC::read(int D1_D6_A1_A4)
   else
     return false;
 }
-void Proton_Arduino_PLC::write(int AO1_AO2, int value)
+void Proton_Arduino_PLC::write(int AO1_AO2, int Value)
 {
   if (AO1_AO2 == AO1 || AO1_AO2 == AO2)
     analogWrite(AO1_AO2, Value);
