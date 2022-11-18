@@ -12,12 +12,12 @@
         {
           "name": "Proton Arduino PLC",
           "architecture": "avr",
-          "version": "0.0.19-alpha",
+          "version": "0.0.19-beta",
           "category": "Contributed",
           "help": {
             "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
           },
-          "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/v0.0.3-alpha/Proton_Arduino_PLC.zip",
+          "url": "https://github.com/Proton-Electronics/proton-plc/archive/refs/heads/main.zip",
           "archiveFileName": "Proton_Arduino_PLC.zip",
           "boards": [{ "name": "Proton Arduino PLC A5" }],
           "toolsDependencies": [
