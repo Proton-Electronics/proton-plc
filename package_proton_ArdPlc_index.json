@@ -18,7 +18,7 @@
             "online": "https://github.com/Proton-Electronics/proton-plc/wiki"
           },
           "url": "https://github.com/Proton-Electronics/proton-plc/archive/refs/heads/main.zip",
-          "archiveFileName": "Proton_Arduino_PLC.zip",
+          "archiveFileName": "proton-plc-main.zip",
           "boards": [{ "name": "Proton Arduino PLC A5" }],
           "toolsDependencies": [
             {
