@@ -1,10 +1,11 @@
 # Proton Arduino PLC
 
-## Proton Plc A5 
+## Proton Plc A5
 
 ### Tech Specs
 
-**ATmega328** Microcontroller  
+**ATmega328** Microcontroller
+
 - High-performance low-power 8-bit processor
 - Achieve up to 16 MIPS for 16 MHz clock frequency
 - 32 kB of which 2 KB used by bootloader
@@ -16,12 +17,14 @@
 - Programmable Serial USART
 - Master/Slave SPI Serial Interface
 
-**Power**  
+**Power**
+
 - USB C connection
 - 12V-24V unregulated external power supply (Max 32V)
 - Overvoltage and overcurrent protection
 
-**Sleep Modes**  
+**Sleep Modes**
+
 - Idle
 - ADC Noise Reduction
 - Power-save
@@ -29,15 +32,16 @@
 - Standby
 - Extended Standby
 
-**I/O**  
+**I/O**
+
 - 6 Digital Input 12V-24V
 - 4 Analog Input 0V-10V (overvoltage protected)
 - 2 Analog Output
-- 5 Relays Output - 5A @ 250VAC 
-- 1 I2C 
+- 5 Relays Output - 5A @ 250VAC
+- 1 I2C extension for [SSD1306](https://github.com/olikraus/u8g2/wiki), ...
 
 ### Software Compatible
 
-* [Arduino IDE (1.8.x or newer)](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-Arduino-IDE)
-* [VSCode with PlatformIO](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-Vscode-and-Platformio)
-* [OpenPLC Editor](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-OpenPLC)
+- [Arduino IDE (1.8.x or newer)](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-Arduino-IDE)
+- [VSCode with PlatformIO](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-Vscode-and-Platformio)
+- [OpenPLC Editor](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-OpenPLC)
