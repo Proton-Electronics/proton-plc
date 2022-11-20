@@ -42,6 +42,6 @@
 
 ### Software Compatible
 
-- [Arduino IDE (1.8.x or newer)](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-Arduino-IDE)
-- [VSCode with PlatformIO](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-Vscode-and-Platformio)
-- [OpenPLC Editor](https://github.com/Proton-Electronics/proton-plc/wiki/Using-with-OpenPLC)
+- [Arduino IDE (1.8.x or newer)](https://github.com/Proton-Electronics/proton-plc/wiki/Arduino-IDE)
+- [VSCode with PlatformIO](https://github.com/Proton-Electronics/proton-plc/wiki/Vscode-and-Platformio)
+- [OpenPLC Editor](https://github.com/Proton-Electronics/proton-plc/wiki/OpenPLC)
