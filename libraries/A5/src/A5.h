@@ -7,6 +7,8 @@ class Proton_Arduino_PLC
 {
 public:
 	Proton_Arduino_PLC();
+	int _AO1 = 0;
+	int _AO2 = 0;
 
 	int d1(void);
 	int d2(void);
@@ -26,7 +28,7 @@ public:
 	void rel4(int ON_OFF);
 	void rel5(int ON_OFF);
 
-	int read(int D1_D6_A1_A4);
+	int read(int D1_D6_A1_A4_AO1_AO2);
 	void write(int AO1_AO2, int Value);
 
 	void on(int REL1_REL5);
