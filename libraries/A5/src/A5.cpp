@@ -113,31 +113,31 @@ void Proton_Arduino_PLC::rel5(int ON_OFF)
   digitalWrite(REL5, ON_OFF);
 }
 
-int Proton_Arduino_PLC::read(int D1_D6_A1_A4_AO1_AO2)
+int Proton_Arduino_PLC::read(int pin)
 {
-  if (D1_D6_A1_A4_AO1_AO2 == D1 || D1_D6_A1_A4_AO1_AO2 == D2 || D1_D6_A1_A4_AO1_AO2 == D3 || D1_D6_A1_A4_AO1_AO2 == D4 || D1_D6_A1_A4_AO1_AO2 == D5 || D1_D6_A1_A4_AO1_AO2 == D6)
-    return digitalRead(D1_D6_A1_A4_AO1_AO2);
+  if (Pin == D1 || Pin == D2 || Pin == D3 || Pin == D4 || Pin == D5 || Pin == D6)
+    return digitalRead(pin);
 
-  else if (D1_D6_A1_A4_AO1_AO2 == A1 || D1_D6_A1_A4_AO1_AO2 == A2 || D1_D6_A1_A4_AO1_AO2 == A3 || D1_D6_A1_A4_AO1_AO2 == A4)
-    return analogRead(D1_D6_A1_A4_AO1_AO2);
+  else if (Pin == A1 || Pin == A2 || Pin == A3 || Pin == A4)
+    return analogRead(pin);
 
-  else if (D1_D6_A1_A4_AO1_AO2 == AO1)
+  else if (Pin == AO1)
     return _AO1;
 
-  else if (D1_D6_A1_A4_AO1_AO2 == AO2)
+  else if (Pin == AO2)
     return _AO2;
 
   else
     return false;
 }
-void Proton_Arduino_PLC::write(int AO1_AO2, int Value)
+void Proton_Arduino_PLC::write(int pin, int Value)
 {
-  if (AO1_AO2 == AO1 || AO1_AO2 == AO2)
-    analogWrite(AO1_AO2, Value);
+  if (Pin == AO1 || Pin == AO2)
+    analogWrite(pin, Value);
 
-  if (AO1_AO2 == AO1)
+  if (Pin == AO1)
     _AO1 = Value;
-  else if (AO1_AO2 == AO2)
+  else if (Pin == AO2)
     _AO2 = Value;
 }
 

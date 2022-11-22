@@ -28,8 +28,8 @@ public:
 	void rel4(int ON_OFF);
 	void rel5(int ON_OFF);
 
-	int read(int D1_D6_A1_A4_AO1_AO2);
-	void write(int AO1_AO2, int Value);
+	int read(int Pin);
+	void write(int Pin, int Value);
 
 	void on(int REL1_REL5);
 	void off(int REL1_REL5);
