@@ -130,7 +130,7 @@ int Proton_Arduino_PLC::read(int pin)
   else
     return false;
 }
-void Proton_Arduino_PLC::write(int pin, int Value)
+void Proton_Arduino_PLC::write(int Pin, int Value)
 {
   if (Pin == AO1 || Pin == AO2)
     analogWrite(pin, Value);
