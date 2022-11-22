@@ -113,13 +113,13 @@ void Proton_Arduino_PLC::rel5(int ON_OFF)
   digitalWrite(REL5, ON_OFF);
 }
 
-int Proton_Arduino_PLC::read(int pin)
+int Proton_Arduino_PLC::read(int Pin)
 {
   if (Pin == D1 || Pin == D2 || Pin == D3 || Pin == D4 || Pin == D5 || Pin == D6)
-    return digitalRead(pin);
+    return digitalRead(Pin);
 
   else if (Pin == A1 || Pin == A2 || Pin == A3 || Pin == A4)
-    return analogRead(pin);
+    return analogRead(Pin);
 
   else if (Pin == AO1)
     return _AO1;
@@ -133,7 +133,7 @@ int Proton_Arduino_PLC::read(int pin)
 void Proton_Arduino_PLC::write(int Pin, int Value)
 {
   if (Pin == AO1 || Pin == AO2)
-    analogWrite(pin, Value);
+    analogWrite(Pin, Value);
 
   if (Pin == AO1)
     _AO1 = Value;
