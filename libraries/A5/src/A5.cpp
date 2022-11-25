@@ -115,7 +115,7 @@ void Proton_Arduino_PLC::rel5(int ON_OFF)
 
 int Proton_Arduino_PLC::read(int Pin)
 {
-  if (Pin == D1 || Pin == D2 || Pin == D3 || Pin == D4 || Pin == D5 || Pin == D6)
+  if (Pin == D1 || Pin == D2 || Pin == D3 || Pin == D4 || Pin == D5 || Pin == D6 || Pin == REL1 || Pin == REL2 || Pin == REL3 || Pin == REL4 || Pin == REL5)
     return digitalRead(Pin);
 
   else if (Pin == A1 || Pin == A2 || Pin == A3 || Pin == A4)
