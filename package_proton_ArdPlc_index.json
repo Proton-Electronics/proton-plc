@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/v0.0.20-beta/proton-plc-main.zip",
           "archiveFileName": "proton-plc-main.zip",
-          "checksum": "SHA-256:a9e34e94f9c37f3e7ff6e0f0f7efda8cf41f7185effbd0e8ccfa7d62593c3fb8",
-          "size": "149786",
+          "checksum": "SHA-256:c8c67862fba8bc10fa7d45c04b3e0a0969d36233e13caaa7ac7b701daf0c805b",
+          "size": "149817",
           
           "boards": [{ "name": "Proton Arduino PLC A5" }],
           
