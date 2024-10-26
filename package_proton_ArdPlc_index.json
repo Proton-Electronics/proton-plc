@@ -35,20 +35,10 @@
               "name": "avrdude",
               "version": "6.3.0-arduino17"
             }
-          ],
-          "discoveryDependencies": [
-            { "packager": "arduino", "name": "serial-discovery" },
-            { "packager": "arduino", "name": "mdns-discovery" }
-          ],
-          "monitorDependencies": [
-            { "packager": "arduino", "name": "serial-monitor" }
-          ]
-          
+          ]          
         }
       ],
-
       "tools": []
-      
     }
   ]
 }
