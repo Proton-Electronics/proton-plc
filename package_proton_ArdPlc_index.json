@@ -19,13 +19,12 @@
           },
           "url": "https://github.com/Proton-Electronics/proton-plc/releases/download/v0.0.20-beta/proton-plc-main.zip",
           "archiveFileName": "proton-plc-main.zip",
+          "checksum": "SHA-256:9c86ee28a7ce9fe33e8b07ec643316131e0031b0d22e63bb398902a5fdadbca9",
+          "size": "15125",
+          
           "boards": [{ "name": "Proton Arduino PLC A5" }],
+          
           "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "arduinoOTA",
-              "version": "1.3.0"
-            },
             {
               "packager": "arduino",
               "name": "avr-gcc",
@@ -36,9 +35,20 @@
               "name": "avrdude",
               "version": "6.3.0-arduino17"
             }
+          ],
+          "discoveryDependencies": [
+            { "packager": "arduino", "name": "serial-discovery" },
+            { "packager": "arduino", "name": "mdns-discovery" }
+          ],
+          "monitorDependencies": [
+            { "packager": "arduino", "name": "serial-monitor" }
           ]
+          
         }
-      ]
+      ],
+
+      "tools": []
+      
     }
   ]
 }
